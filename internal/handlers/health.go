@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/nielwyn/go-inventory-system/internal/database"
-	"github.com/nielwyn/go-inventory-system/pkg/response"
+	"github.com/nielwyn/inventory-system/internal/database"
+	"github.com/nielwyn/inventory-system/pkg/response"
 )
 
 // HealthHandler handles health check endpoints

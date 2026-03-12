@@ -2,8 +2,8 @@
 
 A production-ready Go backend inventory management system with RESTful API, featuring authentication, CRUD operations, and complete DevOps setup. Built with clean architecture principles and modern best practices.
 
-[![CI/CD Pipeline](https://github.com/nielwyn/go-inventory-system/actions/workflows/ci.yml/badge.svg)](https://github.com/nielwyn/go-inventory-system/actions/workflows/ci.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/nielwyn/go-inventory-system)](https://goreportcard.com/report/github.com/nielwyn/go-inventory-system)
+[![CI/CD Pipeline](https://github.com/nielwyn/inventory-system/actions/workflows/ci.yml/badge.svg)](https://github.com/nielwyn/inventory-system/actions/workflows/ci.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/nielwyn/inventory-system)](https://goreportcard.com/report/github.com/nielwyn/inventory-system)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## ✨ Features
@@ -34,7 +34,7 @@ A production-ready Go backend inventory management system with RESTful API, feat
 ## 📁 Project Structure
 
 ```
-go-inventory-system/
+inventory-system/
 ├── cmd/
 │   └── api/
 │       └── main.go                    # Application entry point
@@ -103,8 +103,8 @@ go-inventory-system/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/nielwyn/go-inventory-system.git
-   cd go-inventory-system
+   git clone https://github.com/nielwyn/inventory-system.git
+   cd inventory-system
    ```
 
 2. **Set up environment variables**
@@ -163,7 +163,7 @@ docker run -p 8080:8080 \
   -e DB_HOST=your-postgres-host \
   -e DB_PASSWORD=your-password \
   -e JWT_SECRET=your-secret \
-  go-inventory-system:latest
+  inventory-system:latest
 ```
 
 ## 📚 API Documentation

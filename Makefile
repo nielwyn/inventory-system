@@ -2,7 +2,7 @@
 
 # Variables
 APP_NAME=inventory-api
-DOCKER_IMAGE=go-inventory-system
+DOCKER_IMAGE=inventory-system
 MAIN_PATH=./cmd/api
 BIN_DIR=./bin
 

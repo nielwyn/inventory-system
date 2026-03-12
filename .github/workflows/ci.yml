@@ -134,7 +134,7 @@ jobs:
           context: .
           file: ./deployments/docker/Dockerfile
           push: false
-          tags: go-inventory-system:latest
+          tags: inventory-system:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
@@ -144,6 +144,6 @@ jobs:
           context: .
           file: ./deployments/docker/Dockerfile.multistage
           push: false
-          tags: go-inventory-system:optimized
+          tags: inventory-system:optimized
           cache-from: type=gha
           cache-to: type=gha,mode=max

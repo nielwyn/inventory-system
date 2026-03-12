@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/nielwyn/go-inventory-system/internal/models"
-	"github.com/nielwyn/go-inventory-system/internal/repository"
+	"github.com/nielwyn/inventory-system/internal/models"
+	"github.com/nielwyn/inventory-system/internal/repository"
 	"golang.org/x/crypto/bcrypt"
 )
 

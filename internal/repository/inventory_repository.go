@@ -3,7 +3,7 @@ package repository
 import (
 	"errors"
 
-	"github.com/nielwyn/go-inventory-system/internal/models"
+	"github.com/nielwyn/inventory-system/internal/models"
 	"gorm.io/gorm"
 )
 

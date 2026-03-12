@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/nielwyn/go-inventory-system/internal/models"
-	"github.com/nielwyn/go-inventory-system/pkg/logger"
+	"github.com/nielwyn/inventory-system/internal/models"
+	"github.com/nielwyn/inventory-system/pkg/logger"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	gormLogger "gorm.io/gorm/logger"

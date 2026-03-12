@@ -4,9 +4,9 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	"github.com/nielwyn/go-inventory-system/internal/service"
-	"github.com/nielwyn/go-inventory-system/pkg/logger"
-	"github.com/nielwyn/go-inventory-system/pkg/response"
+	"github.com/nielwyn/inventory-system/internal/service"
+	"github.com/nielwyn/inventory-system/pkg/logger"
+	"github.com/nielwyn/inventory-system/pkg/response"
 	"go.uber.org/zap"
 )
 

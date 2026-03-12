@@ -1,4 +1,4 @@
-module github.com/nielwyn/go-inventory-system
+module github.com/nielwyn/inventory-system
 
 go 1.21
 

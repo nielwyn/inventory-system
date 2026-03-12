@@ -4,11 +4,11 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/nielwyn/go-inventory-system/internal/models"
-	"github.com/nielwyn/go-inventory-system/internal/service"
-	"github.com/nielwyn/go-inventory-system/pkg/logger"
-	"github.com/nielwyn/go-inventory-system/pkg/response"
-	"github.com/nielwyn/go-inventory-system/pkg/validator"
+	"github.com/nielwyn/inventory-system/internal/models"
+	"github.com/nielwyn/inventory-system/internal/service"
+	"github.com/nielwyn/inventory-system/pkg/logger"
+	"github.com/nielwyn/inventory-system/pkg/response"
+	"github.com/nielwyn/inventory-system/pkg/validator"
 	"go.uber.org/zap"
 )
 

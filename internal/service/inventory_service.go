@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/nielwyn/go-inventory-system/internal/models"
-	"github.com/nielwyn/go-inventory-system/internal/repository"
+	"github.com/nielwyn/inventory-system/internal/models"
+	"github.com/nielwyn/inventory-system/internal/repository"
 )
 
 // InventoryService handles inventory business logic
